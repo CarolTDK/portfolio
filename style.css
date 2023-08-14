@@ -36,10 +36,10 @@ ul {
   flex-direction: row;
 }
 
-section article h2 {
+h2 {
   margin-top: 5rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .description img {
@@ -54,6 +54,16 @@ section article h2 {
 section article p {
   padding: 3em;
   font-size: 1.5rem;
+}
+
+/* CONOCIMIENTOS */
+.logos {
+  font-size: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin: 2rem;
 }
 /* Footer*/
 footer {
