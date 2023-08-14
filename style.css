@@ -29,6 +29,32 @@ ul {
   flex-direction: row;
   justify-content: space-around;
 }
+
+/* Inicio */
+.description {
+  display: flex;
+  flex-direction: row;
+}
+
+section article h2 {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.description img {
+  border-radius: 44% 56% 66% 34% / 44% 61% 39% 56%;
+  margin-left: 3rem;
+  float: left;
+  width: 50rem;
+  width: 15vw;
+  margin-bottom: 3rem;
+}
+
+section article p {
+  padding: 3em;
+  font-size: 1.5rem;
+}
 /* Footer*/
 footer {
   background-color: gray;
